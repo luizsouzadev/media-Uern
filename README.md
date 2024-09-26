@@ -1,13 +1,13 @@
-Calculadora de Notas da UERN
+# Calculadora de Notas da UERN
 
 Uma ferramenta simples para calcular a média das provas da Universidade do Estado do Rio Grande do Norte (UERN). 
 
-🚀 Como Usar?
+## 🚀 Como Usar?
 
     Insira as notas das provas nos campos indicados.
     A média ponderada será calculada automaticamente.
 
-📝 Funcionamento
+## 📝 Funcionamento
 
 A média é calculada com base nas notas das três provas:
 
@@ -16,12 +16,12 @@ A média é calculada com base nas notas das três provas:
     P3 (Peso 6)
 
 
-📂 Tecnologias Utilizadas
+## 📂 Tecnologias Utilizadas
 
     HTML
     CSS
     JavaScript
 
-📊 Deploy
+## 📊 Deploy
 
 O projeto está hospedado no GitHub Pages e pode ser acessado por
