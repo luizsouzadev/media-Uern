@@ -20,6 +20,11 @@ input[type=number] {
   appearance: textfield;
 }
 
+input[type=number]:disabled { 
+  background-color: #1d0e0e65;
+  
+}
+
 #header {
   background-color: #000000;
 }
