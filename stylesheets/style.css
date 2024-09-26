@@ -1,62 +1,55 @@
-html, body{
+html, body {
   font-family: 'Inter', sans-serif;
   color: #FAFAFA;
 }
 
+body {
+  color: #fff;
+  background-color: #000;
+}
 
-  body {
-    color: #fff;
-    background-color: #000;
-  }
+#conteudo {
+  background: url(../assets/background.png) no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 106px);
+}
 
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 
-  .navbar-light .navbar-brand {
-    color: #fff;
-  }
+#header {
+  background-color: #000000;
+}
 
-  .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h22M4 15h22M4 24h22'/%3e%3c/svg%3e");
-  }
+.custom-alert {
+  max-width: 600px;
+}
 
-  .navbar-light .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1);
-  }
+.nav-item {
+  margin: 0 10px;
+}
 
-  .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h22M4 15h22M4 24h22'/%3e%3c/svg%3e");
-  }
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
 
-  .navbar-light .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1);
-  }
+.nav-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
 
-  .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.55);
-  }
+.nav-link:focus {
+  color: inherit;
+  text-decoration: none;
+}
 
-  .navbar-light .navbar-brand {
-    color: rgba(255, 255, 255, 0.55);
-  }
+.navbar-brand {
+  margin-left: 1rem; 
+}
 
-  #conteudo {
-    background: url(../assets/background.png) no-repeat center center;
-    background-size: cover;
-    height: calc(100vh - 112px);
-  }
-
-  input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
-  }
-
-  #header {
-    background-color: #7a7979;
-  }
-
-  .custom-alert {
-    max-width: 600px;
-    
-  }
+.github-icon {
+  margin-right: 0; 
+}
