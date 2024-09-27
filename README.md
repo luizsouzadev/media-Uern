@@ -24,4 +24,4 @@ A média é calculada com base nas notas das três provas:
 
 ## 📊 Deploy
 
-O projeto está hospedado no GitHub Pages e pode ser acessado por
+O projeto está hospedado no GitHub Pages e pode ser acessado pelo [link](https://luizsouzadev.github.io/media-uern/)
